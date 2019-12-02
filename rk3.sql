@@ -3,7 +3,7 @@ CREATE TABLE IF NOT EXISTS `STUDENT` (
 	`name` varchar(20) NOT NULL,
 	`manufacturer` varchar(20) NOT NULL,
 	`description` varchar(50) NOT NULL,
-	`count` int(10)
+	`count` int(10) NOT NULL
 	) DEFAULT CHARSET=UTF8;
 	
 INSERT INTO `STUDENT` (`name`, `manufacturer`, `description`, `count`) VALUES 
